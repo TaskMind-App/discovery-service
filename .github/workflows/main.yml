@@ -3,7 +3,6 @@ name: Discovery Service CI/CD
 on:
   push:
     branches: [ "main", "master" ]
-    # כדאי להוסיף סינון כדי שהבילד ירוץ רק כשמשתנים קבצים בתוך התיקייה הרלוונטית
     paths:
       - 'discovery-service/**'
 
